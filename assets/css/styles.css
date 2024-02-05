@@ -7,8 +7,8 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --hue-color: 340;
+  --first-color: hsl(var(--hue-color), 90%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
@@ -188,8 +188,9 @@ img {
   align-self: center;
 }
 .home__title {
-  font-size: var(--big-font-size);
+  font-size:3rem;
   margin-bottom: var(--mb-5);
+  
 }
 .home__title-color {
   color: var(--first-color);
@@ -215,6 +216,7 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+  z-index: -1;
 }
 .home__blob-img {
   width: 360px;
@@ -291,22 +293,22 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 100%;
 }
 .skills__css {
-  width: 50%;
+  width: 100%;
 }
 .skills__js {
-  width: 65%;
+  width: 100%;
 }
 .skills__AI {
-  width: 50%;
+  width: 100%;
 }
-.skills__React {
-  width: 20%;
+.skills__Cpp {
+  width: 100%;
 }
 .skills__SQL {
-  width: 70%;
+  width: 100%;
 }
 .skills__img {
   border-radius: 0.5rem;
