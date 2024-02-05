@@ -302,6 +302,9 @@ img {
 .skills__AI {
   width: 50%;
 }
+.skills__React {
+  width: 20%;
+}
 .skills__img {
   border-radius: 0.5rem;
 }
